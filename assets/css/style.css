@@ -328,6 +328,7 @@ a:hover {
     position: relative;
     overflow-y: visible;
 }
+
 #features {
     position: relative;
     padding-top: -300px;  /* Add some top padding to account for overlapping image */
@@ -347,19 +348,30 @@ a:hover {
     font-weight: 300;
     padding-bottom: 20px;
 }
-.hand-container {
+.cat-container {
     position: absolute;
     bottom: 0%;  /* Adjust this value to move the image up or down */
     right: 0vw;
-    transform: translateY(113%);
+    transform: translateY(118%);
     z-index: 10;  /* Ensure it's above other content */
     width: 60%;  /* Adjust as needed */
     max-width: 700px; 
 }
 
-.iphone-hand {
+.the-cat {
     width: 100%;
     height: auto;
+}
+@media (max-width: 992px){
+    .cat-container {
+    position: absolute;
+    bottom: 0%;  /* Adjust this value to move the image up or down */
+    right: 0vw;
+    transform: translateY(18%);
+    z-index: 10;  /* Ensure it's above other content */
+    width: 40%;  /* Adjust as needed */
+    max-width: 200px; 
+}
 }
 .store:hover{
     background: #00ceb8;
