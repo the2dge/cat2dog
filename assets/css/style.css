@@ -372,6 +372,14 @@ a:hover {
     width: 40%;  /* Adjust as needed */
     max-width: 200px; 
 }
+    #banner {
+    background: url(https://i.postimg.cc/bNr2W78D/bulldog-M-min.png);
+    background-size: contain;
+    padding-top: 80px;
+    background-attachment: fixed;
+    position: relative;
+    overflow-y: visible;
+}
 }
 .store:hover{
     background: #00ceb8;
