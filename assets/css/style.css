@@ -432,9 +432,10 @@ a:hover {
 .text-flip {
   position: relative;
   overflow: visible;
-  width: 40rem;
+  width: 360px;
   height: 1.6em; /* Adjust based on your font size */
 }
+
 #features {
     position: relative;
     padding-top: -300px;  /* Add some top padding to account for overlapping image */
@@ -451,7 +452,7 @@ a:hover {
     font-size: 40px;
     font-weight: 300;
     padding-bottom: 0px;
-    color: navy;
+    color: orange;
 }
 .headings p {
     position: absolute;
@@ -459,7 +460,7 @@ a:hover {
     font-size: 18px;
     font-weight: 300;
     padding-bottom: 20px;
-    color: navy;
+    color: green;
 }
 .cat-container {
     position: absolute;
@@ -923,7 +924,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 
 /*1340px - 1170px*/
 
-@ all and (max-width: 1340px) and (min-width: 1170px;) {
+@ all and (max-width: 1340px;) and (min-width: 1170px;) {
     .address-list li {
         font-size: 18px;
     }
