@@ -429,7 +429,12 @@ a:hover {
     overflow-y: visible;
     height: 75vh;
 }
-
+.text-flip {
+  position: relative;
+  overflow: visible;
+  width: 40rem;
+  height: 1.6em; /* Adjust based on your font size */
+}
 #features {
     position: relative;
     padding-top: -300px;  /* Add some top padding to account for overlapping image */
