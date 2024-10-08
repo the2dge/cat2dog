@@ -1107,6 +1107,10 @@ a:hover {
 .ovalShape:hover{
     transition: 0.4s; color: #ab964e;
 }
+@media (max-width:430px){
+    .partnerInfo{height: 40vh; margin:-100px 0 0 10vw; padding: 0}
+    .partnerInfo img:nth-child(1){height: 60%;margin-left: 10vw;animation: spin 60s linear infinite; margin: 10vh 0 0 0;}
+}
 /* ///////////////////////////////////////////////////////////////////// 
 //  9 - Health Science
 /////////////////////////////////////////////////////////////////////*/
