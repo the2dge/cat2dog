@@ -1336,10 +1336,17 @@ a:hover {
 }
 
 .partnerAddition{
-    width: 100%;
-    margin-top: 5vh;
-    margin-bottom: -4vh;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
 }
+.partnerAddition .row{
+    align-items: center;
+    justify-content: center;
+}
+.partnerAddition .row .col-md-3{padding:0}
 
 .review-star {
     text-align: center;
