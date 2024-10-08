@@ -919,7 +919,10 @@ a:hover {
   
     width: 100vw;
 }
+
 .redColor{color: red}
+.blueColor{color: blue}
+.edenColor{color: #ab9643}
 #features .container .row:nth-child(3){
     background-image: url(../img/featureGlareCat.jpg);
     background-size: cover;
