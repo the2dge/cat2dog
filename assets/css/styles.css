@@ -511,10 +511,12 @@ a:hover {
    background-image: url(../img/mainrangeBg-PC.webp);
    background-size: cover;
    background-repeat: no-repeat;
+   background-position: center;
    width: 100%;
    margin-top: 60px;
    padding: 0;
 }
+
 .mainRange .selectContainer{
     display: flex;
     flex-wrap: wrap;
@@ -536,6 +538,28 @@ a:hover {
 .leftSelect img:nth-child(1),.middleSelect img:nth-child(1),.rightSelect img:nth-child(1){
     width:70%;margin:10px;
     animation: wriggle 8s linear infinite;
+}
+
+.imageWrapper::before {
+  content: "COMING SOON";
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  background-color: rgba(255, 0, 0, 0.8); /* Semi-transparent red */
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.imageWrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: Add rounded corners to the image */
 }
 .rightSelect img:nth-child(1){width: 85%;margin:0}
 
