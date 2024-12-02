@@ -9,6 +9,11 @@ main{
      max-width: 1880px;
      margin: 0;
 }
+a.toMainrange{color: transparent;}
+.toMainrange{
+    position: absolute; padding:100px;transition: 0.5s;
+    bottom: -62%; right: 0%;color: transparent;z-index: 10000;}
+.toMainrange:hover{cursor: pointer;}
 .carousel-item {
             display: flex;
             align-items: center;
