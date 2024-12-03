@@ -78,7 +78,7 @@ a.toMainrange{color: transparent;}
 }
 @media (max-width: 768px){
     .catodogBanner{
-        background: url(../img/banner_bg_mobile.jpg);
+        background: url(../img/banner_bg_mobile.webp);
         margin-top: 120px;
         height: 150vw;
     }
