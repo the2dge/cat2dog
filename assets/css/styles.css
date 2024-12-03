@@ -397,7 +397,7 @@ a:hover {
   position: fixed;
   z-index: 99999;
   place-items: center;
-  top: 47%;
+  top: 42%;
   right: 4%;
   animation: spin 60s linear infinite;
 }
@@ -592,7 +592,7 @@ a:hover {
 .backTopBtn {
     position: fixed; /* Fixed position on the screen */
     right: 10px; /* Positioned on the rightmost side */
-    top: 50%; /* Vertically centered */
+    top: 65%; /* Vertically centered */
     transform: translateY(-50%);
     cursor: pointer;
     border-top: 3px solid grey;
