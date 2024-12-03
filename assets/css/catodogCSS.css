@@ -82,6 +82,9 @@ a.toMainrange{color: transparent;}
         margin-top: 120px;
         height: 150vw;
     }
+   .toMainrange{
+    position: absolute; padding:100px;transition: 0.5s;
+    bottom: 20%; right: 0%;color: transparent;z-index: 10000;}
     .video-container {
           height: 157vw;
         }
