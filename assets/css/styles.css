@@ -410,7 +410,7 @@ a:hover {
   font-size: 1.2rem;
   color: #ab964e;
 }
-.whereCircle{border-radius: 50%;background-image: url(../img/edenLogo.png);background-size: contain; background-size: contain;background-position: center; background-repeat: no-repeat; transform: rotate(40deg)}
+.whereCircle{border-radius: 50%;background-image: url(../img/edenLogo.webp);background-size: contain; background-size: contain;background-position: center; background-repeat: no-repeat; transform: rotate(40deg)}
 .whereCircle img{
     width: 100%; border-radius: 50%;}
 
