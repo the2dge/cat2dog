@@ -60,7 +60,7 @@ a.toMainrange{color: transparent;}
         }
 @media (min-width: 769px){
   .catodogBanner{   margin-top: 33vh;
-    background: url(../img/banner_bg.jpg);
+    background: url(../img/banner_bg_pc.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom left;
